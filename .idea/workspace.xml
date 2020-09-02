@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560c3b8c-95ac-4c7e-8391-e984303bfa6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/CS235FlixSkeleton.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +29,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="pytest" type="tests" factoryName="py.test" nameIsGenerated="true">
@@ -84,6 +84,7 @@
       <workItem from="1599044799591" duration="28000" />
       <workItem from="1599044833867" duration="110000" />
       <workItem from="1599044980708" duration="17000" />
+      <workItem from="1599045631429" duration="37000" />
     </task>
     <servers />
   </component>
@@ -123,6 +124,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1598436106566" />
+    <state x="824" y="362" key="SettingsEditor" timestamp="1599045660267">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="824" y="362" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1599045660267" />
     <state x="1141" y="631" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599044911967">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
