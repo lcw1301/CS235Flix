@@ -3,17 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="560c3b8c-95ac-4c7e-8391-e984303bfa6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domainmodel/actor.py" beforeDir="false" afterPath="$PROJECT_DIR$/domainmodel/actor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domainmodel/movie.py" beforeDir="false" afterPath="$PROJECT_DIR$/domainmodel/movie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domainmodel/watchlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/domainmodel/watchlist.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="8ad35ccd-e571-4812-af44-79c76fc7d1d1" />
   <component name="ProjectId" id="1gdAsPqQN8eF8DyWltXM7LQAI9V" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -90,6 +103,7 @@
       <workItem from="1599053745096" duration="137000" />
       <workItem from="1599054017146" duration="729000" />
       <workItem from="1599054824605" duration="545000" />
+      <workItem from="1599123543077" duration="7113000" />
     </task>
     <servers />
   </component>
