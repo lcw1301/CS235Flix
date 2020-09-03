@@ -29,8 +29,10 @@ class Actor:
         return self.__actor_full_name < other.__actor_full_name
 
     def add_actor_colleague(self, colleague):
-        if colleague not in self.colleagues and colleague != self:
-            self.colleagues.append(colleague)
+        if type(colleague) is Actor:
+            if colleague not in self.colleagues:
+                self.colleagues.append(colleague)
 
     def check_if_this_actor_worked_with(self, colleague):
-        return colleague in self.colleagues
+        if type(colleague) is Actor:
+            return colleague in self.colleagues
