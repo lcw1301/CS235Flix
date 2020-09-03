@@ -12,6 +12,7 @@ class Movie:
         self.__title = None
         self.__description = None
         self.__runtime_minutes = 0
+        self.__favourite = False
 
         if title != "" and type(title) is str:
             self.__title = title.strip()
@@ -66,6 +67,10 @@ class Movie:
         if type(runtime_minutes) is int:
             self.__runtime_minutes = runtime_minutes
 
+    @property
+    def favourite(self) -> bool:
+        return self.__favourite
+
     def __repr__(self):
         return f"<Movie {self.__title}, {self.__release_year}>"
 
@@ -83,13 +88,21 @@ class Movie:
             self.__actors.append(actor)
 
     def remove_actor(self, actor):
-        if actor in self.__actors:
-            self.__actors.remove(actor)
+        if type(actor) is Actor:
+            if actor in self.__actors:
+                self.__actors.remove(actor)
 
     def add_genre(self, genre):
         if type(genre) is Genre:
             self.__genres.append(genre)
 
     def remove_genre(self, genre):
-        if genre in self.__genres:
-            self.__genres.remove(genre)
+        if type(genre) is Genre:
+            if genre in self.__genres:
+                self.__genres.remove(genre)
+
+    def add_favourite(self):
+        self.__favourite = True
+
+    def remove_favourite(self):
+        self.__favourite = False
