@@ -61,10 +61,10 @@ class Movie:
 
     @runtime_minutes.setter
     def runtime_minutes(self, runtime_minutes):
-        if runtime_minutes <= 0:
-            raise ValueError
-
         if type(runtime_minutes) is int:
+            if runtime_minutes <= 0:
+                raise ValueError
+
             self.__runtime_minutes = runtime_minutes
 
     @property

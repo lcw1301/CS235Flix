@@ -25,6 +25,11 @@ class MovieFileCSVReader:
                 actors = row['Actors']
                 genres = row['Genre']
                 director = row['Director']
+                runtime_minutes = row['Runtime (Minutes)']
+                rating = row['Rating']
+                votes = row['Votes']
+                revenue = row['Revenue (Millions)']
+                metascore = row['Metascore']
 
                 for actor in actors.split(','):
                     self.dataset_of_actors.add(Actor(actor.strip()))

@@ -3,6 +3,7 @@ from domainmodel.review import Review
 
 
 class User:
+
     def __init__(self, user_name, password):
         self.__user_name = None
         self.__password = None
@@ -23,7 +24,7 @@ class User:
     @user_name.setter
     def user_name(self, user_name):
         if user_name != "" and type(user_name) is str:
-            self.__user_name = user_name
+            self.__user_name = user_name.strip().lower()
 
     @property
     def password(self) -> str:
